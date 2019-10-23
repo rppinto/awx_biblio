@@ -3,7 +3,7 @@
 - hosts: all
   gather_facts: true
   tasks:
-    - name: Run the specified shell command
+    - name: Run the specified shell commmand
       shell: '{{shell}}'
       register: result
 
