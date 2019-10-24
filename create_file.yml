@@ -4,5 +4,5 @@
   tasks:
   - name: Ansible create file if it doesn't exist example
     file:
-      path: "/test_file_create.txt"
+      path: "/home/cascm/jenkins/test_file_create_ansible.txt"
       state: touch
